@@ -1,0 +1,918 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="SFM Developer Center">
+      
+      
+        <link rel="canonical" href="https://github.com/supremainc/sfmdev/documents/Introduction/">
+      
+      
+        <meta name="author" content="Suprema inc.">
+      
+      
+        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.3">
+    
+    
+      
+        <title>Introduction - SFM Developer Center</title>
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-e2807e330f.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-f78e5cb881.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <!--<a href="https://github.com/supremainc/sfmdev" title="SFM Developer Center" class="md-logo md-header-nav__button">
+            <img src="../../images/suprema.png" width="24" height="24">
+          </a>-->
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Technical Documents
+                </span>
+              
+                <span class="md-header-nav__parent">
+                  SFM SDK Manual
+                </span>
+              
+            
+            Introduction
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <div class="md-header-nav__source">
+          
+            
+
+
+  
+
+
+  <a href="https://github.com/supremainc/sfmdev" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      supremainc/sfmdev
+    </div>
+  </a>
+
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <a href="../.." title="SFM Developer Center" class="md-logo md-header-nav__button">
+                      <img src="../../images/suprema.png" width="150" height="69" >
+                    </a>
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-logo md-nav__button">
+        <img src="../../images/suprema.png">
+      </i>
+    
+    SFM Developer Center
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/supremainc/sfmdev" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      supremainc/sfmdev
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Products
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Products
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../products/SFM3000/" title="SFM3000 Series" class="md-nav__link">
+      SFM3000 Series
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../products/SFM4000/" title="SFM4000 Series" class="md-nav__link">
+      SFM4000 Series
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../products/SFM5000/" title="SFM5000 Series" class="md-nav__link">
+      SFM5000 Series
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../products/SFM5500/" title="SFM5500 Series" class="md-nav__link">
+      SFM5500 Series
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../products/SFM6000/" title="SFM6000 Series" class="md-nav__link">
+      SFM6000 Series
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Technical Documents
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Technical Documents
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" checked>
+    
+    <label class="md-nav__link" for="nav-3-1">
+      SFM SDK Manual
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        SFM SDK Manual
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Introduction
+      </label>
+    
+    <a href="./" title="Introduction" class="md-nav__link md-nav__link--active">
+      Introduction
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction" title="1. Introduction" class="md-nav__link">
+    1. Introduction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-contents-of-the-sdk" title="1.1. Contents of the SDK" class="md-nav__link">
+    1.1. Contents of the SDK
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-usage" title="1.2. Usage" class="md-nav__link">
+    1.2. Usage
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-compilation" title="1.2.1. Compilation" class="md-nav__link">
+    1.2.1. Compilation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-unifinger-ui" title="1.3. UniFinger UI" class="md-nav__link">
+    1.3. UniFinger UI
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-optional-requirements" title="1.3.1. Optional Requirements" class="md-nav__link">
+    1.3.1. Optional Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-compilation" title="1.3.2. Compilation" class="md-nav__link">
+    1.3.2. Compilation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../API_Compatibility/" title="API Compatability" class="md-nav__link">
+      API Compatability
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../API_Specification/" title="API Specification" class="md-nav__link">
+      API Specification
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../UF_Protocol_Manual/" title="UF Protocol Manual" class="md-nav__link">
+      UF Protocol Manual
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      SDK
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        SDK
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
+    
+    <label class="md-nav__link" for="nav-4-1">
+      SFM SDK
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        SFM SDK
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/c_cpp/" title="C/C++" class="md-nav__link">
+      C/C++
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/c_sharp/" title=".NET" class="md-nav__link">
+      .NET
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/android/" title="android" class="md-nav__link">
+      android
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/python/" title="python" class="md-nav__link">
+      python
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../community/community/" title="Community" class="md-nav__link">
+      Community
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Open Source Projects
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Open Source Projects
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projects/SFM_OPEN_EVK/" title="SFM Open EVK" class="md-nav__link">
+      SFM Open EVK
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction" title="1. Introduction" class="md-nav__link">
+    1. Introduction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-contents-of-the-sdk" title="1.1. Contents of the SDK" class="md-nav__link">
+    1.1. Contents of the SDK
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-usage" title="1.2. Usage" class="md-nav__link">
+    1.2. Usage
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-compilation" title="1.2.1. Compilation" class="md-nav__link">
+    1.2.1. Compilation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-unifinger-ui" title="1.3. UniFinger UI" class="md-nav__link">
+    1.3. UniFinger UI
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-optional-requirements" title="1.3.1. Optional Requirements" class="md-nav__link">
+    1.3.1. Optional Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-compilation" title="1.3.2. Compilation" class="md-nav__link">
+    1.3.2. Compilation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Introduction</h1>
+                
+                <h2 id="1-introduction">1. Introduction<a class="headerlink" href="#1-introduction" title="Permanent link">&para;</a></h2>
+<p>The SFM SDK is a collection of APIs for interfacing with SFM modules and BioEntry readers. In addition to simple wrapper functions for Packet Protocol, it also provides high level APIs such as template DB management, image manipulation, etc. By using the SDK, developers could write Win32 applications quickly without knowing the minute details of Packet Protocol.</p>
+<p><img alt="SFM_SDK.jpg" src="../SFM_SDK.jpg" /></p>
+<p><strong>Fig. 1. SFM SDK</strong></p>
+<p>As shown in Fig. 1, the SDK is composed of several layers and developers could choose whichever layer suited for their applications. Another strong point of the SDK is its extensibility. Many of core APIs provide callback mechanism, with which developers can add customized functions. UniFingerUI V5.x is a good example of this feature. Completely rewritten from scratch, UniFingerUI V5.x covers all the core functionalities of SFM modules and shows how to use the SDK in real applications. The source codes of it are also provided in the SDK.</p>
+<h3 id="11-contents-of-the-sdk">1.1. Contents of the SDK<a class="headerlink" href="#11-contents-of-the-sdk" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Directory</th>
+<th>Sub Directory</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SDK</td>
+<td>Document</td>
+<td>- SFM SDK Reference Manual   <br> - Packet Protocol Manual</td>
+</tr>
+<tr>
+<td></td>
+<td>Include</td>
+<td>- Header files of SFM SDK.</td>
+</tr>
+<tr>
+<td></td>
+<td>Lib</td>
+<td>- SFM_SDK.dll: SDK DLL file.   <br> - SFM_SDK_Debug.dll: SDK DLL with debug information.   <br> - SFM_SDK.lib: import library to be linked with C/C++ applications.   <br> - SFM_SDK_Debug.lib: import library to be linked with C/C++ applications</td>
+</tr>
+<tr>
+<td></td>
+<td>Lib_Ordinal</td>
+<td>The functions in these DLLs are exported by ordinal using DEF files. Use these DLLs if you have problem using the SDK in programming languages other than C/C++.</td>
+</tr>
+<tr>
+<td>UniFingerUI</td>
+<td></td>
+<td>- Source codes   <br> - Visual C++ 6.0 project file   <br> - Visual C++ 2010 project file (v.5.1~)</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>C#</td>
+<td>- A simple example which shows how to use the SDK in .NET environment</td>
+</tr>
+</tbody>
+</table>
+<h3 id="12-usage">1.2. Usage<a class="headerlink" href="#12-usage" title="Permanent link">&para;</a></h3>
+<h5 id="121-compilation">1.2.1. Compilation<a class="headerlink" href="#121-compilation" title="Permanent link">&para;</a></h5>
+<p>To call APIs defined in the SFM SDK, ‘UF_API.h’ should be included in the source files and SDK\Include should be added to the include directories. To link user application with the SFM SDK, SFM_SDK.lib should be added to library modules.</p>
+<p>The following snippet shows a typical source file.</p>
+<p><div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">“UF_API.h”</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="c1">// First, initialize the serial port</span>
+    <span class="n">UF_RET_CODE</span> <span class="n">result</span> <span class="o">=</span> <span class="n">UF_InitCommPort</span><span class="p">(</span> <span class="err">“</span><span class="n">COM1</span><span class="err">”</span><span class="p">,</span> <span class="mi">115200</span><span class="p">,</span> <span class="n">FALSE</span> <span class="p">);</span>
+
+    <span class="n">If</span><span class="p">(</span> <span class="n">result</span> <span class="o">!=</span> <span class="n">UF_RET_SUCCESS</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Call APIs</span>
+    <span class="n">UINT32</span> <span class="n">userID</span><span class="p">;</span>
+    <span class="n">BYTE</span> <span class="n">subID</span><span class="p">;</span>
+
+    <span class="n">result</span> <span class="o">=</span> <span class="n">UF_Identify</span><span class="p">(</span> <span class="o">&amp;</span><span class="n">userID</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">subID</span> <span class="p">);</span>
+
+    <span class="c1">// …</span>
+<span class="p">}</span>
+</pre></div>
+1.2.2. Using the DLL
+To run applications compiled with the SFM SDK, the SFM_SDK.dll file should be in the system directory or in the same directory of the application.</p>
+<h3 id="13-unifinger-ui">1.3. UniFinger UI<a class="headerlink" href="#13-unifinger-ui" title="Permanent link">&para;</a></h3>
+<p>UniFinger UI is a full-featured application by which users can test all the core functionalities of SFM modules. UniFinger UI is implemented using the SFM SDK and full source codes are available for SDK users.</p>
+<h5 id="131-optional-requirements">1.3.1. Optional Requirements<a class="headerlink" href="#131-optional-requirements" title="Permanent link">&para;</a></h5>
+<p>UniFinger UI uses Microsoft’s HTML Help Workshop for online help. You can download it from the MSDN web site.</p>
+<h5 id="132-compilation">1.3.2. Compilation<a class="headerlink" href="#132-compilation" title="Permanent link">&para;</a></h5>
+<p>Open UniFingerUI\UniFingerUI.dsw in Microsoft Visual C++ 6.0 or later. If you download and install HTML Help Workshop, changes the include directory and library path accordingly. If you don’t want online help, just select ‘Win32 Debug Without Help’ or ‘Win32 Release Without Help’ as the active configuration.</p>
+<p><img alt="22.jpg" src="../22.jpg" /></p>
+<p><strong>Fig. 2. UniFingerUI</strong></p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../products/SFM6000/" title="SFM6000 Series" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                SFM6000 Series
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../API_Compatibility/" title="API Compatability" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                API Compatability
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 Suprema inc.
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="http://struct.cc" class="md-footer-social__link fa fa-globe"></a>
+    
+      <a href="https://github.com/squidfunk" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://twitter.com/squidfunk" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://de.linkedin.com/in/martin-donath-20a95039" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application-6b4ff16fa7.js"></script>
+      <script>app.initialize({url:{base:"../.."}})</script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+    
+      
+      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","None","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+      
+    
+  </body>
+</html>
