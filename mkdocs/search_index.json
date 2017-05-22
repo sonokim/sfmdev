@@ -202,13 +202,133 @@
         },
         {
             "location": "/products/SFM5500/",
-            "text": "",
+            "text": "SFM5500 Series\n\u00b6\n\n\nSFM5500 is a high-end standalone fingerprint module\nequipped with versatile external interface including\nRS232, RS422/485, Wiegand, Digital I/O and LED\nControl, readily applicable to access control applications.\nSFM5500 offers comprehensive functionalities and\ninterfaces to be used as a complete standalone fingerprint\naccess reader by itself.\n\n\nFeatures\n\u00b6\n\n\n\n\nPowerful 533MHz DSP\n\n\n1:1 verification in 550ms\n\n\nFast Power-on Time\n\n\nConfigurable Digital I/O and LED Control Ports\n\n\nWiegand Input & Output Ports\n\n\nAuxiliary Communication Ports\n\n\n1:1,000 Identification in 700ms\n\n\nSuprema, ISO 19794-2, ANSI 378 Template Options\n\n\nWSQ Image Compression Algorithm certified by FBI\n\n\n256-bit AES Fingerprint Data Encryption\n\n\n8MB Flash Memory Option\n\n\nRS232, RS422/485 Host Communication\n\n\n\n\nAvailable Models\n\u00b6\n\n\nSFM5520-OP\n\u00b6\n\n\n\n\n\n\nOptical Sensor\n\n\nRobust optical fingerprint sensor\n\n\nSolid and scratch-free sensor surface\n\n\nReliable high quality fingerprint image for wet & dry fingers\n\n\nSensor surface optimized to capture the ideal fingerprint image\n\n\n\n\nSFM5530-OC\n\u00b6\n\n\n\n\n\n\nWaterproof Optical Sensor\n\n\nRobust optical fingerprint sensor\n\n\nIP65 rated waterproof front surface\n\n\nSolid and scratch-free sensor surface\n\n\nReliable high quality fingerprint image for wet & dry fingers\n\n\n\n\nSFM5550-TC\n\u00b6\n\n\n\n\n\n\nUPEK TouchChip Sensor\n\n\nCapacitive type sensor\n\n\nPerfectPrint technology\n\n\nReliable high quality\n\n\nfingerprint image\n\n\n\n\nSpecification\n\u00b6\n\n\n\n\n\n    \n     \n        \n\n            \nSensor\n           \n            \nSensor Option\n          \n            \nOptical, Capacitive\n\n        \n\n        \n\n            \nMain\n\n            \nCPU\n\n            \n533MHz DSP\n \n        \n\n        \n\n            \nFlash Memory\n\n            \n4MB\n(8MB Option)\n\n        \n\n        \n\n            \nEER\n\n            \n<\n 0.1%\n\n        \n\n        \n\n            \nEnrollment Time\n(Sensor Dependent)\n\n            \n<\n 550ms OP5/OC4\n<\n 600ms TC1\n<\n 410ms TC2\n\n        \n\n        \n\n            \n1:1 Verification Time\n(Sensor Dependent)\n\n            \n<\n 550ms OP5/OC4\n<\n 600ms TC1\n<\n 410ms TC2\n\n        \n\n        \n\n            \n1:1000 ID Time*\n(Sensor Dependent)\n\n            \n<\n 700ms OP5/OC4\n<\n 740ms TC1\n<\n 550ms TC2\n\n        \n\n        \n\n            \nTemplate Options\n\n            \nSuprema, ISO19794-2, ANSI 378\n\n        \n\n        \n\n            \nTemplate Size\n(Default: 384 Bytes)\n\n            \n256 to 384 Bytes\n(Configurable)\n\n        \n\n        \n\n            \nTemplate Capacity\n\n            \n9,000 @ 4 MB Flash\n19,000 @ 8MB Flash\n\n        \n\n        \n\n            \nLog Capacity\n\n            \n12,800\n\n        \n\n        \n\n            \nFingerprint Data Encryption\n\n            \n256-bit AES\n            \n        \n\n        \n\n            \nInterface\n            \n            \nHost Comm.\n         \n            \nRS232 or RS422/485 \nup to 460800 bps\n\n        \n\n        \n\n            \nAux Comm.\n\n            \nAsync. Serial:\nCMOS level up to 460800 bps\n  \n        \n\n        \n\n            \nWiegand Interface\n\n            \n1x Wiegand Input, 1x Wiegand Output\n\n        \n\n        \n\n            \nExternal I/O\n\n            \n3x Digital Inputs, 3x Digital Outputs, 3x LED Outputs\n          \n        \n\n        \n\n            \nHardware\n         \n            \nSupply Voltage\n         \n            \n5 VDC Regulated\n\n        \n\n        \n\n            \nBoard Size\n\n            \n63 x 43 x 10 mm (L x W x H)\n    \n        \n       \n    \n\n\n\n\n\n\u00a0\n\n\n\u00a0\n\n\n\n\n\n\n  \n\n    \nModel\n\n    \nSFM5500\n\n  \n\n  \n\n    \nSFM5520-OP5\n\n    \nSFM5530-OC4\n\n    \nSFM5500-TC\n\n  \n\n  \n\n    \nSensor Type\n\n    \nOptical\n\n    \nOptical\n\n    \nCapacitive\n\n  \n\n  \n\n    \nSensor Options\n\n    \nOP5\n\n    \nOC4\n\n    \nTC1\n\n    \nTC2\n\n  \n\n  \n\n    \nResolution (dpi)\n\n    \n500\n\n    \n500\n\n    \n508\n\n    \n508\n\n  \n\n  \n\n    \nSensing Area (mm)\n\n    \n16.0 x 19.0\n\n    \n16.0 x 18.0\n\n    \n12.8 x 18.0\n\n    \n10.4 x 14.4\n\n  \n\n  \n\n    \nImage Size (px)\n\n    \n272 x 320\n\n    \n288 x 288\n\n    \n256 x 360\n\n    \n208 x 288\n\n  \n\n  \n\n    \nFinger Rotation\n\n    \n+/- 90'\n\n    \n+/- 90'\n\n    \n+/- 90'\n\n    \n+/- 90'\n\n  \n\n  \n\n    \nSensor Dimension\n(L x W x H) (mm)\n\n    \n20.5 x 25 x 52\n\n    \n21 x 23 x 54\n\n    \n20.4 x 27 x 3.5\n\n    \n20.4 x 27 x 3.5\n\n  \n\n \n\n\n\n\n\n\n\nAccessories\n\u00b6\n\n\n\n\n\n\n\n\nRelated links\n\u00b6\n\n\nDatasheets\n\u00b6\n\n\n\n\nSFM5520-OP\n\n\nSFM5530-OC\n\n\nSFM5560-OH\n\n\n\n\nDocuments\n\u00b6\n\n\n\n\nUF Protocol Manual\n\n\n\n\nSoftware\n\u00b6\n\n\n\n\nUnifingerUI",
             "title": "SFM5500 Series"
         },
         {
-            "location": "/products/SFM6000/",
+            "location": "/products/SFM5500/#sfm5500-series",
+            "text": "SFM5500 is a high-end standalone fingerprint module\nequipped with versatile external interface including\nRS232, RS422/485, Wiegand, Digital I/O and LED\nControl, readily applicable to access control applications.\nSFM5500 offers comprehensive functionalities and\ninterfaces to be used as a complete standalone fingerprint\naccess reader by itself.",
+            "title": "SFM5500 Series"
+        },
+        {
+            "location": "/products/SFM5500/#features",
+            "text": "Powerful 533MHz DSP  1:1 verification in 550ms  Fast Power-on Time  Configurable Digital I/O and LED Control Ports  Wiegand Input & Output Ports  Auxiliary Communication Ports  1:1,000 Identification in 700ms  Suprema, ISO 19794-2, ANSI 378 Template Options  WSQ Image Compression Algorithm certified by FBI  256-bit AES Fingerprint Data Encryption  8MB Flash Memory Option  RS232, RS422/485 Host Communication",
+            "title": "Features"
+        },
+        {
+            "location": "/products/SFM5500/#available-models",
             "text": "",
+            "title": "Available Models"
+        },
+        {
+            "location": "/products/SFM5500/#sfm5520-op",
+            "text": "Optical Sensor  Robust optical fingerprint sensor  Solid and scratch-free sensor surface  Reliable high quality fingerprint image for wet & dry fingers  Sensor surface optimized to capture the ideal fingerprint image",
+            "title": "SFM5520-OP"
+        },
+        {
+            "location": "/products/SFM5500/#sfm5530-oc",
+            "text": "Waterproof Optical Sensor  Robust optical fingerprint sensor  IP65 rated waterproof front surface  Solid and scratch-free sensor surface  Reliable high quality fingerprint image for wet & dry fingers",
+            "title": "SFM5530-OC"
+        },
+        {
+            "location": "/products/SFM5500/#sfm5550-tc",
+            "text": "UPEK TouchChip Sensor  Capacitive type sensor  PerfectPrint technology  Reliable high quality  fingerprint image",
+            "title": "SFM5550-TC"
+        },
+        {
+            "location": "/products/SFM5500/#specification",
+            "text": "Sensor            \n             Sensor Option           \n             Optical, Capacitive \n         \n         \n             Main \n             CPU \n             533MHz DSP  \n         \n         \n             Flash Memory \n             4MB (8MB Option) \n         \n         \n             EER \n             <  0.1% \n         \n         \n             Enrollment Time (Sensor Dependent) \n             <  550ms OP5/OC4 <  600ms TC1 <  410ms TC2 \n         \n         \n             1:1 Verification Time (Sensor Dependent) \n             <  550ms OP5/OC4 <  600ms TC1 <  410ms TC2 \n         \n         \n             1:1000 ID Time* (Sensor Dependent) \n             <  700ms OP5/OC4 <  740ms TC1 <  550ms TC2 \n         \n         \n             Template Options \n             Suprema, ISO19794-2, ANSI 378 \n         \n         \n             Template Size (Default: 384 Bytes) \n             256 to 384 Bytes (Configurable) \n         \n         \n             Template Capacity \n             9,000 @ 4 MB Flash 19,000 @ 8MB Flash \n         \n         \n             Log Capacity \n             12,800 \n         \n         \n             Fingerprint Data Encryption \n             256-bit AES             \n         \n         \n             Interface             \n             Host Comm.          \n             RS232 or RS422/485  up to 460800 bps \n         \n         \n             Aux Comm. \n             Async. Serial: CMOS level up to 460800 bps   \n         \n         \n             Wiegand Interface \n             1x Wiegand Input, 1x Wiegand Output \n         \n         \n             External I/O \n             3x Digital Inputs, 3x Digital Outputs, 3x LED Outputs           \n         \n         \n             Hardware          \n             Supply Voltage          \n             5 VDC Regulated \n         \n         \n             Board Size \n             63 x 43 x 10 mm (L x W x H)     \n                \n       \u00a0  \u00a0   \n   \n     Model \n     SFM5500 \n   \n   \n     SFM5520-OP5 \n     SFM5530-OC4 \n     SFM5500-TC \n   \n   \n     Sensor Type \n     Optical \n     Optical \n     Capacitive \n   \n   \n     Sensor Options \n     OP5 \n     OC4 \n     TC1 \n     TC2 \n   \n   \n     Resolution (dpi) \n     500 \n     500 \n     508 \n     508 \n   \n   \n     Sensing Area (mm) \n     16.0 x 19.0 \n     16.0 x 18.0 \n     12.8 x 18.0 \n     10.4 x 14.4 \n   \n   \n     Image Size (px) \n     272 x 320 \n     288 x 288 \n     256 x 360 \n     208 x 288 \n   \n   \n     Finger Rotation \n     +/- 90' \n     +/- 90' \n     +/- 90' \n     +/- 90' \n   \n   \n     Sensor Dimension (L x W x H) (mm) \n     20.5 x 25 x 52 \n     21 x 23 x 54 \n     20.4 x 27 x 3.5 \n     20.4 x 27 x 3.5",
+            "title": "Specification"
+        },
+        {
+            "location": "/products/SFM5500/#accessories",
+            "text": "",
+            "title": "Accessories"
+        },
+        {
+            "location": "/products/SFM5500/#related-links",
+            "text": "",
+            "title": "Related links"
+        },
+        {
+            "location": "/products/SFM5500/#datasheets",
+            "text": "SFM5520-OP  SFM5530-OC  SFM5560-OH",
+            "title": "Datasheets"
+        },
+        {
+            "location": "/products/SFM5500/#documents",
+            "text": "UF Protocol Manual",
+            "title": "Documents"
+        },
+        {
+            "location": "/products/SFM5500/#software",
+            "text": "UnifingerUI",
+            "title": "Software"
+        },
+        {
+            "location": "/products/SFM6000/",
+            "text": "SFM6000 Series\n\u00b6\n\n\nSFM6000 Series represents a great leap forward in biometrics.\nIt boasts a powerful 1.0GHz CPU that empowers the worlds\u2019\nfastest authentication and supports multiple interfaces\nincluding RS232 and USB2.0 that allow high-speed data\ntransfer. With enlarged template capacity up to 25,000\ntemplates, SFM6000 Series is the perfect solution for\na large-scaled yet fast authentication\n\n\nFeatures\n\u00b6\n\n\n\n\nPowerful 1.0GHz CPU\n\n\n1:1 verification in 330ms\n\n\nFast Power-on Time\n\n\n8 configurable Digital I/O Ports\n\n\n1:1,000 Identification in 400ms\n\n\nSuprema, ISO 19794-2, ANSI 378 Template Options\n\n\nAndroid SDK\n\n\nWSQ Image Compression Algorithm certified by FBI\n\n\n256-bit AES Fingerprint Data Encryption\n\n\n8MB and 16MB Flash Memory Option\n\n\nRS232, USB2.0 Host Communication\n\n\n\n\nAvailable Models\n\u00b6\n\n\nSFM6020-OP\n\u00b6\n\n\n\n\n\n\nOptical Sensor\n\n\nRobust optical fingerprint sensor\n\n\nIP65 rated waterproof front surface\n\n\nSolid and scratch-free sensor surface\n\n\nReliable high quality fingerprint image for wet & dry fingers\n\n\nSensor surface optimized to capture the ideal fingerprint image\n\n\n\n\nSFM6030-OC\n\u00b6\n\n\n\n\n\n\nOptical Sensor\n\n\nRobust optical fingerprint sensor\n\n\nIP65 rated waterproof front surface\n\n\nSolid and scratch-free sensor surface\n\n\nReliable high quality fingerprint image for wet & dry fingers\n\n\n\n\nSFM6050-T\n\u00b6\n\n\n\n\n\n\nCapacitive Sensor\n\n\nIP65 rated sensor surface with high durability\n\n\nAnti-latent fingerprint technology\n\n\nReliable high quality fingerprint image\n\n\n\n\nSpecification\n\u00b6\n\n\n\n\n\n    \n     \n        \n\n            \nSensor\n           \n            \nSensor Option\n           \n            \nOptical, Capacitive\n\n        \n\n        \n\n            \nMain\n\n            \nCPU\n\n            \n1GMHz (MIPs)\n   \n        \n\n        \n\n            \nFlash Memory\n\n            \n8MB/16MB\n\n        \n\n        \n\n            \nEER\n\n            \n<\n 0.08%\n\n        \n\n        \n\n            \nEnrollment Time\n(Sensor Dependent)\n\n            \n<\n 330ms OP6/OC6\n<\n 360ms T1\n<\n 250ms T2\n\n        \n\n        \n\n            \n1:1 Verification Time\n(Sensor Dependent)\n\n            \n<\n 330ms OP6/OC6\n<\n 360ms T1\n<\n 250ms T2\n\n        \n\n        \n\n            \n1:1000 ID Time*\n(Sensor Dependent)\n\n            \n<\n 400ms OP6/OC6\n<\n 430ms T1\n<\n 320ms T2\n\n        \n\n        \n\n            \nTemplate Options\n\n            \nSuprema, ISO19794-2, ANSI-378\n\n        \n\n        \n\n            \nTemplate Size\n(Default: 384 Bytes)\n\n            \n256 to 384 Bytes\n(Configurable)\n\n        \n\n        \n\n            \nTemplate Capacity\n\n            \n5,000 @ 8 MB Flash\n25,000 @ 16MB Flash\n\n        \n\n        \n\n            \nFingerprint Data Encryption\n\n            \n256-bit AES\n            \n        \n\n        \n\n            \nInterface\n           \n            \nHost Comm.\n         \n            \nAsync Serial:\nCMOS level upup to 921600 bps \nUSB 2.0(up to 2Mbps)\n\n        \n\n        \n\n            \nExternal I/O\n\n            \n8x Digital I/O\n         \n        \n\n        \n\n            \nHardware\n            \n            \nSupply Voltage\n         \n            \n3.3/5 VDC Regulated\n\n        \n\n        \n\n            \nBoard Size\n\n            \n55 x 40 x 8 mm (L x W x H)\n \n        \n       \n    \n\n\n\n\n\n\u00a0\n\n\n\u00a0\n\n\n\n\n\n\n  \n\n    \nModel\n\n    \nSFM6000\n\n  \n\n  \n\n    \nSFM6020-OP\n\n    \nSFM6030-OC\n\n    \nSFM6050-T1\n\n    \nSFM6050-T2\n\n  \n\n  \n\n    \nSensor Type\n\n    \nOptical\n\n    \nCapacitive\n\n  \n\n  \n\n    \nSensor Options\n\n    \nOP6\n\n    \nOC6\n\n    \nT1\n\n    \nT2\n\n  \n\n  \n\n    \nResolution (dpi)\n\n    \n500\n\n    \n508\n\n  \n\n  \n\n    \nSensing Area (mm)\n\n    \n16.0 x 19.0\n\n    \n16.0 x 18.0\n\n    \n12.8 x 18.0\n\n    \n10.4 x 14.4\n\n  \n\n  \n\n    \nImage Size (px)\n\n    \n272 x 320\n\n    \n288 x 288\n\n    \n256 x 360\n\n    \n208 x 288\n\n  \n\n  \n\n    \nFinger Rotation\n\n    \n+/- 90'\n\n  \n\n  \n\n    \nSensor Dimension\n(L x W x H) (mm)\n\n    \n20.5 x 25 x 52\n\n    \n21 x 23 x 54\n\n    \n20.4 x 27 x 3.5\n\n  \n\n \n\n\n\n\n\n\n\nAccessories\n\u00b6\n\n\n\n\n\n\n\n\n\n\n\n\nRelated links\n\u00b6\n\n\nDatasheets\n\u00b6\n\n\n\n\nSFM6020-OP\n\n\nSFM6030-OC\n\n\nSFM6050-T\n\n\n\n\nDocuments\n\u00b6\n\n\n\n\nUF Protocol Manual\n\n\n\n\nSoftware\n\u00b6\n\n\n\n\nUnifingerUI",
             "title": "SFM6000 Series"
+        },
+        {
+            "location": "/products/SFM6000/#sfm6000-series",
+            "text": "SFM6000 Series represents a great leap forward in biometrics.\nIt boasts a powerful 1.0GHz CPU that empowers the worlds\u2019\nfastest authentication and supports multiple interfaces\nincluding RS232 and USB2.0 that allow high-speed data\ntransfer. With enlarged template capacity up to 25,000\ntemplates, SFM6000 Series is the perfect solution for\na large-scaled yet fast authentication",
+            "title": "SFM6000 Series"
+        },
+        {
+            "location": "/products/SFM6000/#features",
+            "text": "Powerful 1.0GHz CPU  1:1 verification in 330ms  Fast Power-on Time  8 configurable Digital I/O Ports  1:1,000 Identification in 400ms  Suprema, ISO 19794-2, ANSI 378 Template Options  Android SDK  WSQ Image Compression Algorithm certified by FBI  256-bit AES Fingerprint Data Encryption  8MB and 16MB Flash Memory Option  RS232, USB2.0 Host Communication",
+            "title": "Features"
+        },
+        {
+            "location": "/products/SFM6000/#available-models",
+            "text": "",
+            "title": "Available Models"
+        },
+        {
+            "location": "/products/SFM6000/#sfm6020-op",
+            "text": "Optical Sensor  Robust optical fingerprint sensor  IP65 rated waterproof front surface  Solid and scratch-free sensor surface  Reliable high quality fingerprint image for wet & dry fingers  Sensor surface optimized to capture the ideal fingerprint image",
+            "title": "SFM6020-OP"
+        },
+        {
+            "location": "/products/SFM6000/#sfm6030-oc",
+            "text": "Optical Sensor  Robust optical fingerprint sensor  IP65 rated waterproof front surface  Solid and scratch-free sensor surface  Reliable high quality fingerprint image for wet & dry fingers",
+            "title": "SFM6030-OC"
+        },
+        {
+            "location": "/products/SFM6000/#sfm6050-t",
+            "text": "Capacitive Sensor  IP65 rated sensor surface with high durability  Anti-latent fingerprint technology  Reliable high quality fingerprint image",
+            "title": "SFM6050-T"
+        },
+        {
+            "location": "/products/SFM6000/#specification",
+            "text": "Sensor            \n             Sensor Option            \n             Optical, Capacitive \n         \n         \n             Main \n             CPU \n             1GMHz (MIPs)    \n         \n         \n             Flash Memory \n             8MB/16MB \n         \n         \n             EER \n             <  0.08% \n         \n         \n             Enrollment Time (Sensor Dependent) \n             <  330ms OP6/OC6 <  360ms T1 <  250ms T2 \n         \n         \n             1:1 Verification Time (Sensor Dependent) \n             <  330ms OP6/OC6 <  360ms T1 <  250ms T2 \n         \n         \n             1:1000 ID Time* (Sensor Dependent) \n             <  400ms OP6/OC6 <  430ms T1 <  320ms T2 \n         \n         \n             Template Options \n             Suprema, ISO19794-2, ANSI-378 \n         \n         \n             Template Size (Default: 384 Bytes) \n             256 to 384 Bytes (Configurable) \n         \n         \n             Template Capacity \n             5,000 @ 8 MB Flash 25,000 @ 16MB Flash \n         \n         \n             Fingerprint Data Encryption \n             256-bit AES             \n         \n         \n             Interface            \n             Host Comm.          \n             Async Serial: CMOS level upup to 921600 bps  USB 2.0(up to 2Mbps) \n         \n         \n             External I/O \n             8x Digital I/O          \n         \n         \n             Hardware             \n             Supply Voltage          \n             3.3/5 VDC Regulated \n         \n         \n             Board Size \n             55 x 40 x 8 mm (L x W x H)  \n                \n       \u00a0  \u00a0   \n   \n     Model \n     SFM6000 \n   \n   \n     SFM6020-OP \n     SFM6030-OC \n     SFM6050-T1 \n     SFM6050-T2 \n   \n   \n     Sensor Type \n     Optical \n     Capacitive \n   \n   \n     Sensor Options \n     OP6 \n     OC6 \n     T1 \n     T2 \n   \n   \n     Resolution (dpi) \n     500 \n     508 \n   \n   \n     Sensing Area (mm) \n     16.0 x 19.0 \n     16.0 x 18.0 \n     12.8 x 18.0 \n     10.4 x 14.4 \n   \n   \n     Image Size (px) \n     272 x 320 \n     288 x 288 \n     256 x 360 \n     208 x 288 \n   \n   \n     Finger Rotation \n     +/- 90' \n   \n   \n     Sensor Dimension (L x W x H) (mm) \n     20.5 x 25 x 52 \n     21 x 23 x 54 \n     20.4 x 27 x 3.5",
+            "title": "Specification"
+        },
+        {
+            "location": "/products/SFM6000/#accessories",
+            "text": "",
+            "title": "Accessories"
+        },
+        {
+            "location": "/products/SFM6000/#related-links",
+            "text": "",
+            "title": "Related links"
+        },
+        {
+            "location": "/products/SFM6000/#datasheets",
+            "text": "SFM6020-OP  SFM6030-OC  SFM6050-T",
+            "title": "Datasheets"
+        },
+        {
+            "location": "/products/SFM6000/#documents",
+            "text": "UF Protocol Manual",
+            "title": "Documents"
+        },
+        {
+            "location": "/products/SFM6000/#software",
+            "text": "UnifingerUI",
+            "title": "Software"
         },
         {
             "location": "/documents/Introduction/",
