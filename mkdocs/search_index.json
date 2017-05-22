@@ -82,13 +82,123 @@
         },
         {
             "location": "/products/SFM4000/",
-            "text": "",
+            "text": "SFM4000 Series\n\u00b6\n\n\nSFM4000 is a compact, power efficient module that is simple\nto integrate with various system applications. The module\noffers flexible supply voltage, integrated power management,\nsmall footprint, and voltage detector functions. SFM4000 is\nspecially designed for lock and safe manufacturers look for\nan inexpensive, reliable biometric solution with extra low\npower-consumption and compact size.\n\n\nFeatures\n\u00b6\n\n\n\n\nIntegrated power control circuit\n\n\nSuprema, ISO 19794-2 and ANSI 378 template options\n\n\nSerial Interface with simple protocol\n\n\n4 configurable Digital I/O ports\n\n\nSingle 3.3 VDC regulated power source\n\n\n256-bit AES fingerprint data encryption\n\n\n\n\nAvailable Models\n\u00b6\n\n\nSFM4020-OP\n\u00b6\n\n\n\n\n\n\nOptical Sensor\n\n\nRobust optical fingerprint sensor\n\n\nSolid and scratch-free sensor surface\n\n\nReliable high quality fingerprint image for wet & dry fingers\n\n\nSensor surface optimized to capture the ideal fingerprint image\n\n\n\n\nSpecification\n\u00b6\n\n\n\n\n\n    \n     \n        \n\n            \nSensor\n           \n            \nSensor Option\n          \n            \nOptical\n\n        \n\n        \n\n            \nMain\n\n            \nCPU\n\n            \n400MHz DSP\n \n        \n\n        \n\n            \nFlash Memory\n\n            \n1MB\n\n        \n\n        \n\n            \nEER\n\n            \n<\n 0.1%\n\n        \n\n        \n\n            \nEnrollment Time\n(Sensor Dependent)\n\n            \n<\n 800ms OP5\n\n        \n\n        \n\n            \n1:1 Verification Time\n(Sensor Dependent)\n\n            \n<\n 800ms OP5\n\n        \n\n        \n\n            \n1:1000 ID Time*\n(Sensor Dependent)\n\n            \n<\n 970ms OP5\n\n        \n\n        \n\n            \nTemplate Options\n\n            \nSuprema, ISO19794-2, ANSI 378\n\n        \n\n        \n\n            \nTemplate Size\n(Default: 384 Bytes)\n\n            \n256 to 384 Bytes\n(Configurable)\n\n        \n\n        \n\n            \nTemplate Capacity\n\n            \n1,900 @ 1 MB Flash\n\n        \n\n        \n\n            \nLog Capacity\n\n            \n-\n\n        \n\n        \n\n            \nFingerprint Data Encryption\n\n            \n256-bit AES\n            \n        \n\n        \n\n            \nInterface\n            \n            \nHost Comm.\n         \n            \nAsync. Serial:\nCMOS level\nup to 460800 bps\n\n        \n\n        \n\n            \nAux Comm.\n\n            \n-\n  \n        \n\n        \n\n            \nWiegand Interface\n\n            \n-\n\n        \n\n        \n\n            \nExternal I/O\n\n            \n4x Digital I/O\n         \n        \n\n        \n\n            \nHardware\n         \n            \nSupply Voltage\n         \n            \n3.3 VDC Regulated\n\n        \n\n        \n\n            \nBoard Size\n\n            \n26 x 26 x 6.4 mm (L x W x H)\n   \n        \n       \n    \n\n\n\n\n\n\u00a0\n\n\n\u00a0\n\n\n\n\n\n\n  \n\n    \nModel\n\n    \nSFM4000\n\n  \n\n  \n\n    \nSFM4020-OP5\n    \n  \n\n  \n\n    \nSensor Type\n\n    \nOptical\n\n  \n\n  \n\n    \nSensor Options\n\n    \nOP5\n\n  \n\n  \n\n    \nResolution (dpi)\n\n    \n500\n\n  \n\n  \n\n    \nSensing Area (mm)\n\n    \n16.0 x 19.0\n\n  \n\n  \n\n    \nImage Size (px)\n\n    \n272 x 320\n\n  \n\n  \n\n    \nFinger Rotation\n\n    \n+/- 90'\n\n  \n\n  \n\n    \nSensor Dimension\n(L x W x H) (mm)\n\n    \n20.5 x 25 x 52\n\n  \n\n \n\n\n\n\n\n\n\nAccessories\n\u00b6\n\n\n\n\n\n\n\n\nRelated links\n\u00b6\n\n\nDatasheets\n\u00b6\n\n\n\n\nSFM4020-OP\n\n\n\n\nDocuments\n\u00b6\n\n\n\n\nUF Protocol Manual\n\n\n\n\nSoftware\n\u00b6\n\n\n\n\nUnifingerUI",
             "title": "SFM4000 Series"
         },
         {
-            "location": "/products/SFM5000/",
+            "location": "/products/SFM4000/#sfm4000-series",
+            "text": "SFM4000 is a compact, power efficient module that is simple\nto integrate with various system applications. The module\noffers flexible supply voltage, integrated power management,\nsmall footprint, and voltage detector functions. SFM4000 is\nspecially designed for lock and safe manufacturers look for\nan inexpensive, reliable biometric solution with extra low\npower-consumption and compact size.",
+            "title": "SFM4000 Series"
+        },
+        {
+            "location": "/products/SFM4000/#features",
+            "text": "Integrated power control circuit  Suprema, ISO 19794-2 and ANSI 378 template options  Serial Interface with simple protocol  4 configurable Digital I/O ports  Single 3.3 VDC regulated power source  256-bit AES fingerprint data encryption",
+            "title": "Features"
+        },
+        {
+            "location": "/products/SFM4000/#available-models",
             "text": "",
+            "title": "Available Models"
+        },
+        {
+            "location": "/products/SFM4000/#sfm4020-op",
+            "text": "Optical Sensor  Robust optical fingerprint sensor  Solid and scratch-free sensor surface  Reliable high quality fingerprint image for wet & dry fingers  Sensor surface optimized to capture the ideal fingerprint image",
+            "title": "SFM4020-OP"
+        },
+        {
+            "location": "/products/SFM4000/#specification",
+            "text": "Sensor            \n             Sensor Option           \n             Optical \n         \n         \n             Main \n             CPU \n             400MHz DSP  \n         \n         \n             Flash Memory \n             1MB \n         \n         \n             EER \n             <  0.1% \n         \n         \n             Enrollment Time (Sensor Dependent) \n             <  800ms OP5 \n         \n         \n             1:1 Verification Time (Sensor Dependent) \n             <  800ms OP5 \n         \n         \n             1:1000 ID Time* (Sensor Dependent) \n             <  970ms OP5 \n         \n         \n             Template Options \n             Suprema, ISO19794-2, ANSI 378 \n         \n         \n             Template Size (Default: 384 Bytes) \n             256 to 384 Bytes (Configurable) \n         \n         \n             Template Capacity \n             1,900 @ 1 MB Flash \n         \n         \n             Log Capacity \n             - \n         \n         \n             Fingerprint Data Encryption \n             256-bit AES             \n         \n         \n             Interface             \n             Host Comm.          \n             Async. Serial: CMOS level up to 460800 bps \n         \n         \n             Aux Comm. \n             -   \n         \n         \n             Wiegand Interface \n             - \n         \n         \n             External I/O \n             4x Digital I/O          \n         \n         \n             Hardware          \n             Supply Voltage          \n             3.3 VDC Regulated \n         \n         \n             Board Size \n             26 x 26 x 6.4 mm (L x W x H)    \n                \n       \u00a0  \u00a0   \n   \n     Model \n     SFM4000 \n   \n   \n     SFM4020-OP5     \n   \n   \n     Sensor Type \n     Optical \n   \n   \n     Sensor Options \n     OP5 \n   \n   \n     Resolution (dpi) \n     500 \n   \n   \n     Sensing Area (mm) \n     16.0 x 19.0 \n   \n   \n     Image Size (px) \n     272 x 320 \n   \n   \n     Finger Rotation \n     +/- 90' \n   \n   \n     Sensor Dimension (L x W x H) (mm) \n     20.5 x 25 x 52",
+            "title": "Specification"
+        },
+        {
+            "location": "/products/SFM4000/#accessories",
+            "text": "",
+            "title": "Accessories"
+        },
+        {
+            "location": "/products/SFM4000/#related-links",
+            "text": "",
+            "title": "Related links"
+        },
+        {
+            "location": "/products/SFM4000/#datasheets",
+            "text": "SFM4020-OP",
+            "title": "Datasheets"
+        },
+        {
+            "location": "/products/SFM4000/#documents",
+            "text": "UF Protocol Manual",
+            "title": "Documents"
+        },
+        {
+            "location": "/products/SFM4000/#software",
+            "text": "UnifingerUI",
+            "title": "Software"
+        },
+        {
+            "location": "/products/SFM5000/",
+            "text": "SFM5000 Series\n\u00b6\n\n\nSFM5000 is the latest UniFinger module equipped with\nworld\u2019s leading fingerprint authentication algorithm, which\nranked No. 1 in FVC2004, 2006 and ongoing. The SFM5000\nseries features powerful 533MHz DSP which optimized\nfor performance while minimizing power consumption\n\n\nFeatures\n\u00b6\n\n\n\n\nPowerful 533MHz DSP\n\n\n1:1 verification in 600ms\n\n\nFast Power-on Time\n\n\n8 configurable Digital I/O Ports\n\n\n1:1,000 Identification in 760ms\n\n\nSuprema, ISO 19794-2 and ANSI 378 Template Options\n\n\n256-bit AES Fingerprint Data Encryption\n\n\n4MB Flash Memory Option  \n\n\n\n\nHybrid Live Finger Detection Technology\n\n\n\n\nSuprema\u2019s LFD technology is based on comparison of dynamic and static image characteristics of the fake fingers to live fingers. By the advanced analysis algorithm to detect the abnormalities in dynamic changing pattern of fingerprint images, and several static features showing liveliness or unnaturalness of fingers, fake fingers are clearly distinguished from the live fingers. This new LFD technology provides efficient and effective solution to protect the fingerprint system from attack via fake fingerprints.\n\n\nAvailable Models\n\u00b6\n\n\nSFM5020-OP\n\u00b6\n\n\n\n\n\n\nOptical Sensor\n\n\nRobust optical fingerprint sensor\n\n\nSolid and scratch-free sensor surface\n\n\nReliable high quality fingerprint image for wet & dry fingers\n\n\nSensor surface optimized to capture the ideal fingerprint image\n\n\n\n\nSFM5030-OC\n\u00b6\n\n\n\n\n\n\nWaterproof Optical Sensor\n\n\nRobust optical fingerprint sensor\n\n\nIP65 rated waterproof front surface\n\n\nSolid and scratch-free sensor surface\n\n\nReliable High quality fingerprint image for wet & dry fingers\n\n\n\n\nSFM5060-OH\n\u00b6\n\n\n\n\n\n\nOptical Sensor with LFD\n\n\n500 dpi resolution\n\n\nHybrid finger detection technology\n\n\nPIV/FIPS 201 certification\n\n\nWaterproof front side\n\n\n\n\nSpecification\n\u00b6\n\n\n\n\n\n    \n     \n        \n\n            \nSensor\n           \n            \nSensor Option\n          \n            \nOptical\n\n        \n\n        \n\n            \nMain\n\n            \nCPU\n\n            \n533MHz DSP\n \n        \n\n        \n\n            \nFlash Memory\n\n            \n1MB\n(4MB Option))\n\n        \n\n        \n\n            \nEER\n\n            \n<\n 0.1%\n\n        \n\n        \n\n            \nEnrollment Time\n(Sensor Dependent)\n\n            \n<\n 600ms OP5/OC4/OH\n\n        \n\n        \n\n            \n1:1 Verification Time\n(Sensor Dependent)\n\n            \n<\n 600ms OP5/OC4/OH\n\n        \n\n        \n\n            \n1:1000 ID Time*\n(Sensor Dependent)\n\n            \n<\n 760ms OP5/OC4/OH\n\n        \n\n        \n\n            \nTemplate Options\n\n            \nSuprema, ISO19794-2, ANSI 378\n\n        \n\n        \n\n            \nTemplate Size\n(Default: 384 Bytes)\n\n            \n256 to 384 Bytes\n(Configurable)\n\n        \n\n        \n\n            \nTemplate Capacity\n\n            \n1,900 @ 1 MB Flash\n9,500 @ 4 MB Flash\n\n        \n\n        \n\n            \nLog Capacity\n\n            \n-\n\n        \n\n        \n\n            \nFingerprint Data Encryption\n\n            \n256-bit AES\n            \n        \n\n        \n\n            \nInterface\n            \n            \nHost Comm.\n         \n            \nAsync. Serial:\nCMOS level\nup to 460800 bps\n\n        \n\n        \n\n            \nAux Comm.\n\n            \n-\n  \n        \n\n        \n\n            \nWiegand Interface\n\n            \n-\n\n        \n\n        \n\n            \nExternal I/O\n\n            \n8x Digital I/O\n         \n        \n\n        \n\n            \nHardware\n         \n            \nSupply Voltage\n         \n            \n3.3 VDC Regulated\n\n        \n\n        \n\n            \nBoard Size\n\n            \n55 x 40 x 8 mm (L x W x H)\n \n        \n       \n    \n\n\n\n\n\n\u00a0\n\n\n\u00a0\n\n\n\n\n\n\n  \n\n    \nModel\n\n    \nSFM5000\n\n  \n\n  \n\n    \nSFM5020-OP5\n    \n    \nSFM5030-OC4\n    \n    \nSFM5060-OH\n    \n  \n\n  \n\n    \nSensor Type\n\n    \nOptical\n\n  \n\n  \n\n    \nSensor Options\n\n    \nOP5\n\n    \nOC4\n\n    \nOH\n\n  \n\n  \n\n    \nResolution (dpi)\n\n    \n500\n\n    \n500\n\n    \n500\n\n  \n\n  \n\n    \nSensing Area (mm)\n\n    \n16.0 x 19.0\n\n    \n16.0 x 18.0\n\n    \n15.0 x 18.8.0\n\n  \n\n  \n\n    \nImage Size (px)\n\n    \n272 x 320\n\n    \n288 x 288\n\n    \n260 x 340\n\n  \n\n  \n\n    \nFinger Rotation\n\n    \n+/- 90'\n\n    \n+/- 90'\n\n    \n+/- 90'\n\n  \n\n  \n\n    \nSensor Dimension\n(L x W x H) (mm)\n\n    \n20.5 x 25 x 52\n\n    \n21 x 23 x 54\n\n    \n21 x 23 x 54\n\n  \n\n \n\n\n\n\n\n\n\nAccessories\n\u00b6\n\n\n\n\n\n\n\n\nRelated links\n\u00b6\n\n\nDatasheets\n\u00b6\n\n\n\n\nSFM5020-OP\n\n\nSFM5030-OC\n\n\nSFM5060-OH\n\n\n\n\nDocuments\n\u00b6\n\n\n\n\nUF Protocol Manual\n\n\n\n\nSoftware\n\u00b6\n\n\n\n\nUnifingerUI",
             "title": "SFM5000 Series"
+        },
+        {
+            "location": "/products/SFM5000/#sfm5000-series",
+            "text": "SFM5000 is the latest UniFinger module equipped with\nworld\u2019s leading fingerprint authentication algorithm, which\nranked No. 1 in FVC2004, 2006 and ongoing. The SFM5000\nseries features powerful 533MHz DSP which optimized\nfor performance while minimizing power consumption",
+            "title": "SFM5000 Series"
+        },
+        {
+            "location": "/products/SFM5000/#features",
+            "text": "Powerful 533MHz DSP  1:1 verification in 600ms  Fast Power-on Time  8 configurable Digital I/O Ports  1:1,000 Identification in 760ms  Suprema, ISO 19794-2 and ANSI 378 Template Options  256-bit AES Fingerprint Data Encryption  4MB Flash Memory Option     Hybrid Live Finger Detection Technology   Suprema\u2019s LFD technology is based on comparison of dynamic and static image characteristics of the fake fingers to live fingers. By the advanced analysis algorithm to detect the abnormalities in dynamic changing pattern of fingerprint images, and several static features showing liveliness or unnaturalness of fingers, fake fingers are clearly distinguished from the live fingers. This new LFD technology provides efficient and effective solution to protect the fingerprint system from attack via fake fingerprints.",
+            "title": "Features"
+        },
+        {
+            "location": "/products/SFM5000/#available-models",
+            "text": "",
+            "title": "Available Models"
+        },
+        {
+            "location": "/products/SFM5000/#sfm5020-op",
+            "text": "Optical Sensor  Robust optical fingerprint sensor  Solid and scratch-free sensor surface  Reliable high quality fingerprint image for wet & dry fingers  Sensor surface optimized to capture the ideal fingerprint image",
+            "title": "SFM5020-OP"
+        },
+        {
+            "location": "/products/SFM5000/#sfm5030-oc",
+            "text": "Waterproof Optical Sensor  Robust optical fingerprint sensor  IP65 rated waterproof front surface  Solid and scratch-free sensor surface  Reliable High quality fingerprint image for wet & dry fingers",
+            "title": "SFM5030-OC"
+        },
+        {
+            "location": "/products/SFM5000/#sfm5060-oh",
+            "text": "Optical Sensor with LFD  500 dpi resolution  Hybrid finger detection technology  PIV/FIPS 201 certification  Waterproof front side",
+            "title": "SFM5060-OH"
+        },
+        {
+            "location": "/products/SFM5000/#specification",
+            "text": "Sensor            \n             Sensor Option           \n             Optical \n         \n         \n             Main \n             CPU \n             533MHz DSP  \n         \n         \n             Flash Memory \n             1MB (4MB Option)) \n         \n         \n             EER \n             <  0.1% \n         \n         \n             Enrollment Time (Sensor Dependent) \n             <  600ms OP5/OC4/OH \n         \n         \n             1:1 Verification Time (Sensor Dependent) \n             <  600ms OP5/OC4/OH \n         \n         \n             1:1000 ID Time* (Sensor Dependent) \n             <  760ms OP5/OC4/OH \n         \n         \n             Template Options \n             Suprema, ISO19794-2, ANSI 378 \n         \n         \n             Template Size (Default: 384 Bytes) \n             256 to 384 Bytes (Configurable) \n         \n         \n             Template Capacity \n             1,900 @ 1 MB Flash 9,500 @ 4 MB Flash \n         \n         \n             Log Capacity \n             - \n         \n         \n             Fingerprint Data Encryption \n             256-bit AES             \n         \n         \n             Interface             \n             Host Comm.          \n             Async. Serial: CMOS level up to 460800 bps \n         \n         \n             Aux Comm. \n             -   \n         \n         \n             Wiegand Interface \n             - \n         \n         \n             External I/O \n             8x Digital I/O          \n         \n         \n             Hardware          \n             Supply Voltage          \n             3.3 VDC Regulated \n         \n         \n             Board Size \n             55 x 40 x 8 mm (L x W x H)  \n                \n       \u00a0  \u00a0   \n   \n     Model \n     SFM5000 \n   \n   \n     SFM5020-OP5     \n     SFM5030-OC4     \n     SFM5060-OH     \n   \n   \n     Sensor Type \n     Optical \n   \n   \n     Sensor Options \n     OP5 \n     OC4 \n     OH \n   \n   \n     Resolution (dpi) \n     500 \n     500 \n     500 \n   \n   \n     Sensing Area (mm) \n     16.0 x 19.0 \n     16.0 x 18.0 \n     15.0 x 18.8.0 \n   \n   \n     Image Size (px) \n     272 x 320 \n     288 x 288 \n     260 x 340 \n   \n   \n     Finger Rotation \n     +/- 90' \n     +/- 90' \n     +/- 90' \n   \n   \n     Sensor Dimension (L x W x H) (mm) \n     20.5 x 25 x 52 \n     21 x 23 x 54 \n     21 x 23 x 54",
+            "title": "Specification"
+        },
+        {
+            "location": "/products/SFM5000/#accessories",
+            "text": "",
+            "title": "Accessories"
+        },
+        {
+            "location": "/products/SFM5000/#related-links",
+            "text": "",
+            "title": "Related links"
+        },
+        {
+            "location": "/products/SFM5000/#datasheets",
+            "text": "SFM5020-OP  SFM5030-OC  SFM5060-OH",
+            "title": "Datasheets"
+        },
+        {
+            "location": "/products/SFM5000/#documents",
+            "text": "UF Protocol Manual",
+            "title": "Documents"
+        },
+        {
+            "location": "/products/SFM5000/#software",
+            "text": "UnifingerUI",
+            "title": "Software"
         },
         {
             "location": "/products/SFM5500/",
