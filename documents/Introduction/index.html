@@ -786,7 +786,25 @@
 <h5 id="121-compilation">1.2.1. Compilation<a class="headerlink" href="#121-compilation" title="Permanent link">&para;</a></h5>
 <p>To call APIs defined in the SFM SDK, ‘UF_API.h’ should be included in the source files and SDK\Include should be added to the include directories. To link user application with the SFM SDK, SFM_SDK.lib should be added to library modules.</p>
 <p>The following snippet shows a typical source file.</p>
-<p><div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">“UF_API.h”</span><span class="cp"></span>
+<p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">“UF_API.h”</span><span class="cp"></span>
 <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="c1">// First, initialize the serial port</span>
@@ -806,6 +824,7 @@
     <span class="c1">// …</span>
 <span class="p">}</span>
 </pre></div>
+</td></tr></table>
 1.2.2. Using the DLL
 To run applications compiled with the SFM SDK, the SFM_SDK.dll file should be in the system directory or in the same directory of the application.</p>
 <h3 id="13-unifinger-ui">1.3. UniFinger UI<a class="headerlink" href="#13-unifinger-ui" title="Permanent link">&para;</a></h3>
